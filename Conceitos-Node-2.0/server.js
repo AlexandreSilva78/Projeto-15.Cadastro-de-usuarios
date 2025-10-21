@@ -57,7 +57,7 @@ app.delete('/usuarios/:id', async (req, res) => {
     res.status(200).json({message: "Usuário deletado com sucesso"})
 })
 
-app.listen(3001, () => console.log('🚀 Servidor rodando em http://localhost:3000'))
+app.listen(3000, () => console.log('🚀 Servidor rodando em http://localhost:3000'))
 
     // PUT = Editar Vários
     // PATCH = Editar UM

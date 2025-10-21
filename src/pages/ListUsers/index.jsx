@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import api from '../../services/api'
-import MyButton from '../../components/Button'
+import Button from '../../components/Button'
 import TopBackground from '../../components/TopBackground'
 import Trash from '../../assets/trash.svg'
 
@@ -55,7 +55,7 @@ function ListUsers() {
                     </CardUsers>
                 ))}
             </ContainerUsers>
-            <MyButton type="button" onClick={() => navigate('/')}  $variant="primary">Voltar ao Inicio</MyButton>
+            <Button type="button" onClick={() => navigate('/')}  $variant="primary">Voltar ao Inicio</Button>
         </Container>
     )
 }
